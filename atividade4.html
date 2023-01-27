@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade4</title>
+</head>
+<body>
+    <span id="mensagem"></span>
+    <style>
+        body{background-color: rgb(243, 87, 87);
+        }
+    </style>
+
+    <script>
+        let escolha1 = Number (prompt("escolha um numero entre 1 e 10"))
+        let adivinhe = Number (prompt ("Adivinhe o numero digitado"))
+
+        if (escolha1 = adivinhe) {
+            mensagem = "Parabens! voce acertou o numero"
+
+            while (escolha1 =! adivinhe) {
+                let adivinhe = Number (prompt ("Adivinhe o numero digitado"))
+                
+                document.getElementById("mensagem").innerHTML=mensagem
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

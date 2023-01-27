@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <h1>Soma dos valores</h1>
+    <div id="texto"></div>
+    <style>
+        body {
+            background-color: rgba(255, 35, 35, 0.774);
+            paragrafo: 1px; color: azure;
+            
+            
+            
+        }
+    </style>
+    <script>
+        let nmr = 1;
+        let nmrPsoma = 2;
+        let texto = "";
+        
+        
+        while (nmr <= 54 ) {
+            nmr = nmr + nmrPsoma;
+            nmrPsoma++;
+            texto +="O numero é " + nmr + "</br>";
+            document.getElementById("texto").innerHTML=texto
+
+            
+        }
+
+        
+
+    </script>
+</body>
+</html>
